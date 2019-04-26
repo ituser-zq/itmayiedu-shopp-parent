@@ -1,0 +1,130 @@
+body{background-color:#fdfdfd;}
+
+.ny-zsy{max-width:1100px;width:100%;}
+.ny-zsy .form-box .onfocusstyle span.Validform_right{display: none;}
+.ny-header .login-right{margin-top:34px;}
+.form-box .onfocusstyle{padding:1px 0;position: relative;border:1px solid #dedede;}
+.form-box .onfocusstyle>div,.form-box .onfocusstyle>span{position: absolute;/*top:17px;*/left: 66px;/*z-index:1;*/font-size: 14px;color:#aeadad;}
+.form-box .onfocusstyle>span{top: 15px;z-index: 1;}
+.form-box .yanm-div{border:none}
+.right .form-box .yanm-div .position-input{border:1px solid #dedede;width:150px;margin-right:0;}
+.form-box .input-box input.position-input{background:transparent;position: absolute;z-index: 85;width:100%;padding-left:60px;color:#333;outline: none;margin-top:-1px;padding:16px 10px 16px 61px;height:50px;line-height:20px;}
+.blue{color:#185bc9;}
+.ny-body{margin:60px auto 90px;overflow: hidden;clear: both;}
+.ny-header .right a{margin-left:8px;}
+.ny-body .left{float: left;width:65%;max-width:548px;}
+.ny-body .right{float: left;width:35%;margin-top:16px;}
+.ny-body .right .form-box{width:330px;float: right;padding-right:10px;}
+.ny-body .right .form-box h3{font-size:18px;color:#4d4d4d;}
+.ny-body .right .form-box p{text-align: right;line-height: initial;}
+.ny-body .bind{margin-top: 30px;margin-bottom: 8px;}
+.ny-body .bind-oauth{margin-top: 33px;}
+.ny-body .bind-oauth img{vertical-align: middle;}
+.ny-body .bind-oauth span{margin-left: 20px;font-size: 14px;}
+.ny-body .bind-oauth a{font-size:  14px;}
+.ny-body .bind-exist{margin-right: 30px;}
+.ny-body .bind-oauth{margin-bottom: 20px;}
+.ny-body .form-box .input-box1{margin-top:4px;}
+.form-box .input-box{width:100%;height:50px;margin-top:22px;overflow: hidden;}
+.form-box .sub-box input{border:none;}
+.form-box .input-box input{width:78%;display: block;border:none;height:18px;float: right;}
+.ny-register .form-box .input-box input{left:0;padding-left:17%;width:100%;padding-right:3%;z-index: 2;height: 48px;}
+.input-box input[type="text"],.input-box input[type="password"]{position: absolute;}
+.form-box .input-box>label{display: block;background:url(../images/icon-duo.png) no-repeat;display: block;width:18px;height:18px;float: left;margin:16px 0 0 20px;position: absolute;top:0;left:0;z-index:99;}
+ .input-box label.icon-user{background-position: 0px -120px;}
+.ny-body .right .form-box .input-box>label.icon-passw{background-position: -24px -120px;}
+.right .form-box .sub-box {border:1px solid #007cc3;border-radius:5px;overflow: hidden;}
+.nb .ny-register .form-box .sub-box input{width:100%;position: initial;}
+.form-box .sub-box input{width:100%;margin-right:0;background-color:#007cc3;color:#fff;font-size:18px;cursor: pointer;height: 48px;} 
+.ny-body .right .form-box .check{margin-top:20px;overflow: hidden;clear: both;}
+/*.ny-body .right .form-box .check input{border:1px solid #c1c1c1;}*/
+.ny-body .right .form-box .check input{float: left;display: block;opacity:0;filter:alpha(opacity=0);position: absolute;top:0;right: 0;}
+.ny-body .right .form-box .check span.mh-checkbox{width:12px;height:12px;display: inline-block;float: left;border:1px solid #aaa;position: relative;cursor: pointer;left: 0;top: 0;}
+.ny-body .right .form-box .check span.checkbox-stylemh{border:none;background:url(../images/icon-checked.jpg) no-repeat;padding:1px;}
+.ny-body .right .form-box .check a{display: block;float: right;}
+.ny-body .right .hezuo{margin-top:16px;}
+.ny-body .right .hezuo ul{clear: both;margin-top:28px;}
+.ny-body .right .hezuo ul li{width:39px;height:39px;float: left;margin-right:19px;position: relative;margin-bottom:10px;}
+.ny-body .right .hezuo ul li a{background:url(../images/icon-contact.png) no-repeat;display: block;width:40px;height:40px;text-indent:-99999px;}
+.ny-body .right .hezuo ul li a.wb{background-position: 0px 0px;}
+.ny-body .right .hezuo ul li a.zfb{background-position: -58px 0px;}
+.ny-body .right .hezuo ul li a.qq{background-position: -116px 0px;}
+.ny-body .right .hezuo ul li a.wx{background-position: -176px 0px;}
+.ny-body .right .hezuo ul li a.db{background-position: -234px 0px;}
+.ny-body .right .hezuo ul li a.bd{background-position: -292px 0px;}
+.ny-body .right .hezuo ul li a.wb:hover{background-position: 0px -55px;}
+.ny-body .right .hezuo ul li a.zfb:hover{background-position: -58px -55px;}
+.ny-body .right .hezuo ul li a.qq:hover{background-position: -116px -55px;}
+.ny-body .right .hezuo ul li a.wx:hover{background-position: -176px -55px;}
+.ny-body .right .hezuo ul li a.db:hover{background-position: -234px -55px;}
+.ny-body .right .hezuo ul li a.bd:hover{background-position: -292px -55px;}
+.oauth .qrcode{display: none; width: 182px; height: 210px; position: absolute;left: 0px;bottom: 50px;margin-left: -70px;z-index: 99;border: solid 1px #DDDDDD; background-color: #fff;}
+.oauth .qrcode img{width: 180px;height: 180px;}
+.ny-register .oauth .qrcode{top: 50px;}
+.oauth .qrcode p{text-align: center !important;padding-bottom: 3px;font-size: 14px;background-color: #fff;}
+.oauth li:hover .qrcode{display: block;}
+
+.ny-footer{text-align: center;/*font-size:24px;*/}
+.ny-footer .link a{color:#353535;}
+.ny-footer .link a:hover{color:#de342f;}
+.ny-register{width:1000px;border:1px solid #e0e0e0;padding-bottom:112px;background-color:#fff;}
+.ny-register .left .form-box{width:400px;margin:55px 0 0 75px;}
+.ny-register .form-box .input-box>label{width:22px;height:24px;position: absolute;}
+.ny-register .form-box .input-box>label.icon-phone{background-position: -47px -120px;}
+.ny-register .form-box .input-box>label.icon-yzm{background-position: -71px -120px;}
+.ny-register .form-box .input-box>label.icon-setpassw{background-position: -94px -120px;}
+.ny-register .form-box .sub-box input{padding:0;width:100%;}
+.ny-register .form-box .yzm-box input{width:225px;float: right;}
+.ny-register .form-box .yzm-box input.phoneyzm{width:278px;margin-right:0;padding-right:0;background-color:#f1f1f1;border:1px solid #dedede;border-right:none;height: 50px;}
+.ny-register .form-box .yzm-box input.hq-yzm{display: block;width:122px;position:absolute;left:278px;text-align: center;color:#bebebe;border:1px solid #dedede;height:52px;line-height:52px;font-size:14px;margin-right:0;cursor: pointer;padding:0;z-index:9999;}
+.ny-register .form-box .yzm-box input.active{background-color: #007cc3;color: #fff;border-color:#007cc3;}
+.ny-register .form-box .yzm-box{position: relative;width:100%;border:none;}
+.ny-register .form-box .check{margin:26px 0 10px;}
+.ny-register .right{width:240px;border-left:1px solid #e8e8e8;padding-left:14px;float: right;}
+.ny-register .right .hezuo ul li{margin-top:22px;}
+.ny-register .check{position: relative;border: none;}
+.ny-footer .link a{padding:0 8px;}
+.ny-register .right .hezuo ul{margin-top:6px;}
+.ny-register .form-box .onfocusstyle{padding:0;/*position: relative;*/height: 50px;}
+.ny-register .form-box .input-box .position-input{color:#333;}
+
+.pass-rule{position: fixed;width:100%;margin:0 auto;top:20%;z-index:99999;display: none;}
+.pass-rule .pass-rule-box{width:1180px;margin:0 auto;padding:2%;background-color:#fff;border:1px solid #eee;}
+.pass-rule .pass-rule-box h3{font-size: 16px;float: left;margin-bottom:16px;}
+.pass-rule .pass-rule-box a.btn-close{background:url(../images/w.png) no-repeat;display: block;width:12px;height: 12px;float: right;}
+.pass-rule .pass-rule-box .rule-nr{clear: both;line-height: 24px;text-align: justify;height:500px;overflow-y: auto;}
+
+#mx{display: block;float: right;border:1px solid #eee;}
+
+/*find passw*/
+.find-passw-box{border:1px solid #eee;background-color:#fff;margin:10px 0 30px;width:100%;padding:2%;text-align: center;}
+.find-passw-box h3{font-size: 16px;margin-bottom:50px;}
+.jindu{/*overflow: hidden;*/clear: both;width:100%;padding:0 10%;}
+.jindu dl{float: left;width:25%;text-align: center;border-top:3px dotted #eee;}
+.jindu dl.successdl{border-color:#E10000}
+.jindu dl:first-child{}
+.jindu dl dt{width:60px;height: 60px;background-color:#eee;border-radius:100%;line-height: 60px;font-size: 18px;color:#333;margin:0 auto;position: relative;top:-30px;}
+.jindu dl dt.success{background-color:#e10000;color:#fff;}
+.jindu dl dd{margin-top:10px;}
+.findform-box li{margin-bottom:20px;overflow: hidden;clear: both;width:100%;padding:0 29%;text-align: left;/*height: 34px;*/;}
+.div-tj{width:100%;padding:0 41%;margin-top:30px;}
+.findform-box{clear: both;padding:100px 0;}
+.findform-box span.label{display: inline-block;width: 134px;text-align: right;}
+.findform-box input[type='text'],.findform-box input[type='password']{height:30px;border:1px solid #ddd;width:180px;padding:0 10px;font-size: 12px;}
+.findform-box input.btn{width:120px;margin-right: 202px;}
+.findform-box input.jyphone{width:110px;}
+.findform-box select{width:110px;height: 30px;}
+.findform-box .fyzm-box{display: inline-block;float: left;}
+.findform-box .fyzm-box p{display: inline-block;}
+.findform-box .fyzm-pic{display: inline-block;float: left;height:34px;overflow: hidden;width:140px;}
+.findform-box .check-infor{display: inline-block;width:12px;height: 12px;}
+.findform-box .checkerro{width:initial;padding-left:18px;}
+.yes{background:url(../images/r.png) no-repeat;}
+.no{background:url(../images/w.png) no-repeat;}
+.findform-box .btn-yzm{width:100px;height: 34px;display: inline-block;}
+.findform-box .btn-yzm input.hq-yzm{width:100%;cursor: pointer;}
+.findform-box .btn-yzm input.hq-yzm:hover{background-color:#E10000;color:#fff;}
+.findform-box .ptip{display: none;clear: both;color:#E10000}
+.findform-box p.fsuccess4{font-size: 16px;margin:70px 0;}
+.findform-box p.fsuccess4 a{color:#E10000;font-size: 16px;margin-left:10px;}
+.findform-box li.yyzemail{display: none;}

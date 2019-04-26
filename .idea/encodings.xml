@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itmayiedu-shopp-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itmayiedu-shopp-api/itmayiedu-shopp-api-member" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itmayiedu-shopp-api/itmayiedu-shopp-api-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itmayiedu-shopp-api/itmayiedu-shopp-api-pay" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itmayiedu-shopp-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itmayiedu-shopp-eurekaserver" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itmayiedu-shopp-member" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itmayiedu-shopp-message" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itmayiedu-shopp-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itmayiedu-shopp-pay" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itmayiedu-shopp-pay/src/main/java/com/alipay/config/AlipayConfig.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itmayiedu-shopp-pc-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itmayiedu_shopp-weixin" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

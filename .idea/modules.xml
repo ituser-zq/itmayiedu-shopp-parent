@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/itmayiedu-shopp-api/itmayiedu-shopp-api.iml" filepath="$PROJECT_DIR$/itmayiedu-shopp-api/itmayiedu-shopp-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itmayiedu-shopp-api/itmayiedu-shopp-api-member/itmayiedu-shopp-api-member.iml" filepath="$PROJECT_DIR$/itmayiedu-shopp-api/itmayiedu-shopp-api-member/itmayiedu-shopp-api-member.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itmayiedu-shopp-api/itmayiedu-shopp-api-order/itmayiedu-shopp-api-order.iml" filepath="$PROJECT_DIR$/itmayiedu-shopp-api/itmayiedu-shopp-api-order/itmayiedu-shopp-api-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itmayiedu-shopp-api/itmayiedu-shopp-api-pay/itmayiedu-shopp-api-pay.iml" filepath="$PROJECT_DIR$/itmayiedu-shopp-api/itmayiedu-shopp-api-pay/itmayiedu-shopp-api-pay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itmayiedu-shopp-common/itmayiedu-shopp-common.iml" filepath="$PROJECT_DIR$/itmayiedu-shopp-common/itmayiedu-shopp-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itmayiedu-shopp-eurekaserver/itmayiedu-shopp-eurekaserver.iml" filepath="$PROJECT_DIR$/itmayiedu-shopp-eurekaserver/itmayiedu-shopp-eurekaserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itmayiedu-shopp-member/itmayiedu-shopp-member.iml" filepath="$PROJECT_DIR$/itmayiedu-shopp-member/itmayiedu-shopp-member.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itmayiedu-shopp-message/itmayiedu-shopp-message.iml" filepath="$PROJECT_DIR$/itmayiedu-shopp-message/itmayiedu-shopp-message.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itmayiedu-shopp-order/itmayiedu-shopp-order.iml" filepath="$PROJECT_DIR$/itmayiedu-shopp-order/itmayiedu-shopp-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itmayiedu-shopp-parent.iml" filepath="$PROJECT_DIR$/itmayiedu-shopp-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itmayiedu-shopp-pay/itmayiedu-shopp-pay.iml" filepath="$PROJECT_DIR$/itmayiedu-shopp-pay/itmayiedu-shopp-pay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itmayiedu-shopp-pc-web/itmayiedu-shopp-pc-web.iml" filepath="$PROJECT_DIR$/itmayiedu-shopp-pc-web/itmayiedu-shopp-pc-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itmayiedu_shopp-weixin/itmayiedu_shopp-weixin.iml" filepath="$PROJECT_DIR$/itmayiedu_shopp-weixin/itmayiedu_shopp-weixin.iml" />
+    </modules>
+  </component>
+</project>
