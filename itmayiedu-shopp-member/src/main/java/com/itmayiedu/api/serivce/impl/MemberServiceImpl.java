@@ -25,6 +25,15 @@ import com.itmayiedu.utils.TokenUtils;
 
 import lombok.extern.slf4j.Slf4j;
 
+/**
+ *
+ * @PackageName: com.itmayiedu.api.serivce.impl
+ * @ClassName: MemberServiceImpl.java
+ * @Description:
+ * @Author: ZQ
+ * @Date: 2019/04/26 17:23
+ *
+ */
 @Slf4j
 @RestController
 public class MemberServiceImpl extends BaseApiService implements MemberService {

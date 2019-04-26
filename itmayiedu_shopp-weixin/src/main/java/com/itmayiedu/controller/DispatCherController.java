@@ -20,6 +20,16 @@ import com.itmayiedu.utils.XmlUtils;
 import ch.qos.logback.core.joran.spi.XMLUtil;
 import lombok.extern.slf4j.Slf4j;
 
+/**
+ *
+ * @PackageName: com.itmayiedu.controller
+ * @ClassName: DispatCherController.java
+ * @Description:
+ * @Author: ZQ
+ * @Date: 2019/04/26 17:27
+ *
+ */
+
 @Slf4j
 @RestController
 public class DispatCherController {

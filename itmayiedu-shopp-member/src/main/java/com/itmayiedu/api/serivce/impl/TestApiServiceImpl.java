@@ -11,7 +11,15 @@ import com.itmayiedu.base.BaseApiService;
 import com.itmayiedu.base.ResponseBase;
 
 import lombok.extern.slf4j.Slf4j;
-
+/**
+ *
+ * @PackageName: com.itmayiedu.api.serivce.impl
+ * @ClassName: TestApiServiceImpl.java
+ * @Description:
+ * @Author: ZQ
+ * @Date: 2019/04/26 17:23
+ *
+ */
 @RestController
 public class TestApiServiceImpl extends BaseApiService implements TestApiService {
 

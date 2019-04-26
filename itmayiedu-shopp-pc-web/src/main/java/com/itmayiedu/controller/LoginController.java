@@ -24,6 +24,17 @@ import com.qq.connect.api.OpenID;
 import com.qq.connect.javabeans.AccessToken;
 import com.qq.connect.oauth.Oauth;
 
+/**
+ *
+ * @PackageName: com.itmayiedu.controller
+ * @ClassName: LoginController.java
+ * @Description:
+ * @Author: ZQ
+ * @Date: 2019/04/26 17:26
+ *
+ */
+
+
 @Controller
 public class LoginController {
 	@Autowired
@@ -32,16 +43,19 @@ public class LoginController {
 	private static final String INDEX = "redirect:/";
 	private static final String qqrelation = "qqrelation";
 	// 跳转登录页面
+
 	@RequestMapping(value = "/login", method = RequestMethod.GET)
 	public String loginGet() {
 		return LOGIN;
 	}
 
 	// 登录请求具体提交实现
+
 	@RequestMapping(value = "/login", method = RequestMethod.POST)
 	public String loginPost(UserEntity userEntity, HttpServletRequest request, HttpServletResponse response) {
 		// 1.验证参数
 		// 2.调用登录接口，获取token信息
+
 		ResponseBase loginBase = memberServiceFegin.login(userEntity);
 		if (!loginBase.getRtnCode().equals(Constants.HTTP_RES_CODE_200)) {
 			request.setAttribute("error", "账号或者密码错误!");
@@ -55,6 +69,7 @@ public class LoginController {
 			return LOGIN;
 		}
 		// 3.将token信息存放在cookie里面
+
 		setCookie(memberToken, response);
 		return INDEX;
 	}

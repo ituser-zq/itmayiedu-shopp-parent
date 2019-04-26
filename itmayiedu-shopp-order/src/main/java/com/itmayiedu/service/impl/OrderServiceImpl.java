@@ -8,7 +8,15 @@ import com.itmayiedu.api.order.OrderService;
 import com.itmayiedu.base.BaseApiService;
 import com.itmayiedu.base.ResponseBase;
 import com.itmayiedu.dao.OrderDao;
-
+/**
+ *
+ * @PackageName: com.itmayiedu.service.impl
+ * @ClassName: OrderServiceImpl.java
+ * @Description:
+ * @Author: ZQ
+ * @Date: 2019/04/26 17:24
+ *
+ */
 @RestController
 public class OrderServiceImpl extends BaseApiService implements OrderService {
 	@Autowired

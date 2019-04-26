@@ -3,6 +3,15 @@ package com.itmayiedu.controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ *
+ * @PackageName: com.itmayiedu.controller
+ * @ClassName: TestController.java
+ * @Description:
+ * @Author: ZQ
+ * @Date: 2019/04/26 17:28
+ *
+ */
 
 
 @RestController

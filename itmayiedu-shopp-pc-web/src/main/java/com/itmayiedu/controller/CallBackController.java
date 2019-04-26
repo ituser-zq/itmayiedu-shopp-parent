@@ -24,6 +24,19 @@ import com.itmayiedu.fegin.CallBackServiceFegin;
 
 import lombok.extern.slf4j.Slf4j;
 
+
+
+/**
+ *
+ * @PackageName: com.itmayiedu.controller
+ * @ClassName: CallBackController.java
+ * @Description:
+ * @Author: ZQ
+ * @Date: 2019/04/26 17:25
+ *
+ */
+
+
 @Slf4j
 @RequestMapping("/alibaba/callBack")
 @Controller

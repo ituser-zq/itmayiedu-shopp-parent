@@ -22,7 +22,7 @@ spring:
         name: test
         url: jdbc:mysql://127.0.0.1:3306/shop-member
         username: root
-        password: root
+        password: 970420
         # 使用druid数据源
         type: com.alibaba.druid.pool.DruidDataSource
         driver-class-name: com.mysql.jdbc.Driver

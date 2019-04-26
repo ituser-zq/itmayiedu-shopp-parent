@@ -15,6 +15,17 @@ import com.itmayiedu.constants.Constants;
 import com.itmayiedu.fegin.MemberServiceFegin;
 import com.itmayiedu.utils.CookieUtil;
 
+
+/**
+ *
+ * @PackageName: com.itmayiedu.controller
+ * @ClassName: IndexController.java
+ * @Description:
+ * @Author: ZQ
+ * @Date: 2019/04/26 17:25
+ *
+ */
+
 @Controller
 public class IndexController {
 	private static final String INDEX = "index";

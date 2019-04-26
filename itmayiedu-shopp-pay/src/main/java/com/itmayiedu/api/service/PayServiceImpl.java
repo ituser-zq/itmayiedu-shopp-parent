@@ -21,6 +21,18 @@ import com.itmayiedu.dao.PaymentInfoDao;
 import com.itmayiedu.entity.PaymentInfo;
 import com.itmayiedu.utils.TokenUtils;
 
+
+
+/**
+ *
+ * @PackageName: com.itmayiedu.api.service
+ * @ClassName: PayServiceImpl.java
+ * @Description:
+ * @Author: ZQ
+ * @Date: 2019/04/26 17:25
+ *
+ */
+
 @RestController
 public class PayServiceImpl extends BaseApiService implements PayService {
 	@Autowired

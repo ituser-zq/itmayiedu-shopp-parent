@@ -12,6 +12,17 @@ import com.itmayiedu.constants.Constants;
 import com.itmayiedu.entity.UserEntity;
 import com.itmayiedu.fegin.MemberServiceFegin;
 
+/**
+ *
+ * @PackageName: com.itmayiedu.controller
+ * @ClassName: RegisterController.java
+ * @Description:
+ * @Author: ZQ
+ * @Date: 2019/04/26 17:26
+ *
+ */
+
+
 @Controller
 public class RegisterController {
 	@Autowired
