@@ -4,9 +4,9 @@
 <head>
 <meta charset="UTF-8">
 <title>QQ授权登录</title>
-<link rel="stylesheet" href="/view/default/css/common.css" />
-<link rel="stylesheet" href="/view/default/css/loginregister.css" />
-<link rel="stylesheet" href="/view/default/css/valifrom.css" />
+<link rel="stylesheet" href="/sell/view/default/css/common.css" />
+<link rel="stylesheet" href="/sell/view/default/css/loginregister.css" />
+<link rel="stylesheet" href="/sell/view/default/css/valifrom.css" />
 <style>
 .form-box .input-box {
 	overflow: hidden;
@@ -19,7 +19,7 @@
 	<div class="ny-header">
 		<div class="nb">
 			<div class="logo">
-				<a href="/index.html"><img src="view/default/images/logo.png"
+				<a href="/index.html"><img src="/sell/view/default/images/logo.png"
 					alt="" style="width: 200px; height: 60px" /></a>
 			</div>
 			<div class="right login-right">
@@ -30,7 +30,7 @@
 	<div class="nb">
 		<div class="ny-body ny-zsy">
 			<div class="left">
-				<img src="/view/default/images/login-pic.jpg" alt="" />
+				<img src="/sell/view/default/images/login-pic.jpg" alt="" />
 			</div>
 			<div class="right">
 				<div class="form-box">
@@ -102,10 +102,10 @@
 			</div>
 		</div>
 	</div>
-	<script src="/view/default/js/jquery-1.9.1.min.js"
+	<script src="/sell/view/default/js/jquery-1.9.1.min.js"
 		type="text/javascript"></script>
-	<script src="/view/default/js/main.js" type="text/javascript"></script>
-	<script src="/view/default/js/users.js" type="text/javascript"></script>
+	<script src="/sell/view/default/js/main.js" type="text/javascript"></script>
+	<script src="/sell/view/default/js/users.js" type="text/javascript"></script>
 
 
 	<script>

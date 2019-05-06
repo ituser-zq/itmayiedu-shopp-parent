@@ -6,9 +6,9 @@
 <title>云EC电商系统-欢迎注册会员</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
-<link rel="stylesheet" href="/view/default/css/common.css" />
-<link rel="stylesheet" href="/view/default/css/loginregister.css" />
-<link rel="stylesheet" href="/view/default/css/valifrom.css" />
+<link rel="stylesheet" href="/sell/view/default/css/common.css" />
+<link rel="stylesheet" href="/sell/view/default/css/loginregister.css" />
+<link rel="stylesheet" href="/sell/view/default/css/valifrom.css" />
 </head>
 <style>
 .form-box .input-box {
@@ -19,11 +19,12 @@
 	<div class="ny-header">
 		<div class="nb">
 			<div class="logo">
-				<a href="../index.html"><img src="static/images/logo.png" alt="" /></a>
+				<a href="../index.html"><img src="/sell/static/images/logo.png" alt="" /></a>
 				<span>&middot; 欢迎注册</span>
 			</div>
 			<div class="right">
-				<span>我已经注册，马上</span> <a href="login.html" class="blue">登录 &gt;</a>
+				<span>我已经注册，马上</span> <a href="http://comjxau.natapp1.cc/sell/login
+" class="blue">登录 &gt;</a>
 			</div>
 		</div>
 	</div>
@@ -31,7 +32,7 @@
 		<div class="ny-body ny-register">
 			<div class="left">
 				<div class="form-box">
-					<form action="/register" method="post">
+					<form action="/sell/register" method="post">
 						<div class="input-box input-box1 onfocusstyle user-word">
 							<label for="username" class="icon-user"></label> <input
 								type="text" name="username" id="username" value=""

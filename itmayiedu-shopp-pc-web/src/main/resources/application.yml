@@ -1,10 +1,28 @@
+spring:
+  application:
+    name: pc-web
+  datasource:
+    url: jdbc:mysql://192.168.232.141:3306/wechar_shop?characterEncoding=utf-8&useSSL=false
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    show-sql: true
+  jackson:
+    default-property-inclusion: non_null
+  redis:
+    host: 192.168.232.132
+    port: 6379
+    password: 970420
 server:
+  context-path: /sell
   port: 8081
 #  context-path: /web
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
-spring:
-  application:
-    name: pc-web
+projectUrl:
+  wechatMpAuthorize: http://comjxau.natapp1.cc
+  wechatOpenAuthorize: http://comjxau.natapp1.cc
+  sell: http://comjxau.natapp1.cc

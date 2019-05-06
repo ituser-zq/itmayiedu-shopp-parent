@@ -19,7 +19,7 @@ public interface Constants {
 	String TOKEN_PAY = "TOKEN_pay";
 	// 支付成功
 	String PAY_SUCCESS = "success";
-	// 支付白
+	// 支付失败
 	String PAY_FAIL = "fail";
 	// 用户有效期 90天
 	Long TOKEN_MEMBER_TIME = (long) (60 * 60 * 24 * 90);

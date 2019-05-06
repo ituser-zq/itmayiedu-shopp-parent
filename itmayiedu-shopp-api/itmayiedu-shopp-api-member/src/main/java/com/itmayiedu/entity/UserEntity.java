@@ -2,12 +2,12 @@ package com.itmayiedu.entity;
 
 import java.util.Date;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
-@Getter
-@Setter
+
+@Data
 public class UserEntity {
+
 	private Integer id;
 	private String username;
 	private String password;
