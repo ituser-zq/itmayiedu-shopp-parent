@@ -66,3 +66,5 @@ itmayiedu-shopp-parent
 5.修改微信模块的配置文件的微信测试号appid和appsecret以及Token，注意需要配置外网地址响应微信端传输过来的数据，微信端也需要配置，更多请参阅微信公众平台开发者文档。
 
 6.启动时找到Eurake注册中心，启动注册中心。该信息模块涉及到消息中间件查看消息任务可以下载activityMQ运行客户端查看
+
+## 展示项目地址：https://blog.csdn.net/qq_41360177/article/details/96478275
