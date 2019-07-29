@@ -26,10 +26,10 @@ public class AlipayConfig {
 		// 对应APPID下的支付宝公钥。
 		public static String alipay_public_key = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApzD35QrrCp3QE1B+q2b+WovouUCcQx7VkWiI6lNiiSVXb7/SfeYffbm4Z0DRTAxmxao32mCZBsxiUh+h44CnsWhIvY0cHoXXmsuOytWl5w3bi0jk3++yybgt68wi9i3ZDrRN/EzH7RNA5+tOVK+S1zY4sxHASVrdUWIX9aDP944dJfR3i7jTHze1AkQSvgimEAItJG+TZDh+V+t1s12onzviYd5G8Iq/7Xyofq675rXzbyKF/HOWK1S7hkWCaEsZ+nh8mzH99MUB5yowPoICpl+endSQnAhF7gAKXdG3+y4wd8bEg0OVkjRRymJ+ONm9QvD7dsURW24WYZLIvUmqmwIDAQAB";
 		// 服务器异步通知页面路径 需http://格式的完整路径，不能加?id=123这类自定义参数，必须外网可以正常访问
-		public static String notify_url = "http://9g3cvq.natappfree.cc/alibaba/callBack/notifyUrl";
+		public static String notify_url = "http://comjxau.natapp1.cc//alibaba/callBack/notifyUrl";
 		
 		// 页面跳转同步通知页面路径 需http://格式的完整路径，不能加?id=123这类自定义参数，必须外网可以正常访问
-		public static String return_url = "http://9g3cvq.natappfree.cc/alibaba/callBack/returnUrl";
+		public static String return_url = "http://comjxau.natapp1.cc/alibaba/callBack/returnUrl";
 
 		// 签名方式
 		public static String sign_type = "RSA2";

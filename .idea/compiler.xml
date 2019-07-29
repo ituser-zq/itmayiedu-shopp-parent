@@ -19,7 +19,7 @@
         <module name="itmayiedu_shopp-weixin" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8">
       <module name="itmayiedu-shopp-api" target="1.8" />
       <module name="itmayiedu-shopp-api-member" target="1.8" />
       <module name="itmayiedu-shopp-api-order" target="1.8" />
