@@ -46,7 +46,7 @@ public class RegisterController {
 		ResponseBase regUser = memberServiceFegin.regUser(userEntity);
 		// 3. 如果失败，跳转到失败页面
 		if(!regUser.getRtnCode().equals(Constants.HTTP_RES_CODE_200)){
-			reqest.setAttribute("error", "註冊失敗");
+			reqest.setAttribute("error", "注册失败");
 			 return new ModelAndView("register");
 		}
 		// 4. 如果成功,跳转到成功页面
