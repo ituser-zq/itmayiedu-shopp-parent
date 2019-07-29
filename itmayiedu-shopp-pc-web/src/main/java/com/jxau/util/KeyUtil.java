@@ -1,9 +1,9 @@
-package com.jxau.until;
+package com.jxau.util;
 
 import java.util.Random;
 
 /**
- * @PackageName:com.jxau.until
+ * @PackageName:com.jxau.util
  * @ClassName:KeyUtil
  * @Description:
  * @Author: ZQ

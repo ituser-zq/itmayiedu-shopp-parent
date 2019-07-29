@@ -2,7 +2,7 @@ package com.jxau.domain;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.jxau.enums.ProductStatusEnum;
-import com.jxau.until.EnumUtil;
+import com.jxau.util.EnumUtil;
 import lombok.Data;
 import org.hibernate.annotations.DynamicUpdate;
 

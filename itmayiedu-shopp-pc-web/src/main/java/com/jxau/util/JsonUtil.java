@@ -1,10 +1,10 @@
-package com.jxau.until;
+package com.jxau.util;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
 /**
- * @PackageName:com.jxau.until
+ * @PackageName:com.jxau.util
  * @ClassName:JsonUtil
  * @Description:
  * @Author: ZQ

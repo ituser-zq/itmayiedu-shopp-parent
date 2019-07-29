@@ -1,10 +1,10 @@
-package com.jxau.until;
+package com.jxau.util;
 
 import com.jxau.enums.CodeEnum;
 
 
 /**
- * @PackageName:com.jxau.until
+ * @PackageName:com.jxau.util
  * @ClassName:EnumUtil
  * @Description:    枚举装换工具类
  * @Author: ZQ

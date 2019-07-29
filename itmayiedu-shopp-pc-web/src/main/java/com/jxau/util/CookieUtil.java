@@ -1,4 +1,4 @@
-package com.jxau.until;
+package com.jxau.util;
 
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @PackageName:com.jxau.until
+ * @PackageName:com.jxau.util
  * @ClassName:CookieUtil
  * @Description:
  * @Author: ZQ

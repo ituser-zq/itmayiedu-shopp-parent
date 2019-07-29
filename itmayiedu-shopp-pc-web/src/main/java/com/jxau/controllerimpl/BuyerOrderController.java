@@ -9,7 +9,7 @@ import com.jxau.enums.ResultEnum;
 import com.jxau.form.OrderForm;
 import com.jxau.service.BuyerService;
 import com.jxau.service.OrderService;
-import com.jxau.until.ResultUtil;
+import com.jxau.util.ResultUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

@@ -1,9 +1,9 @@
-package com.jxau.until;
+package com.jxau.util;
 
 import com.jxau.VO.ResultVO;
 
 /**
- * @PackageName:com.jxau.until
+ * @PackageName:com.jxau.util
  * @ClassName:ResultUtil
  * @Description:
  * @Author: ZQ

@@ -6,7 +6,7 @@ import com.jxau.domain.ProductInfo;
 import com.jxau.form.ProductFrom;
 import com.jxau.service.CategoryService;
 import com.jxau.service.ProductService;
-import com.jxau.until.KeyUtil;
+import com.jxau.util.KeyUtil;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

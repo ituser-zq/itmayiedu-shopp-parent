@@ -5,7 +5,7 @@ import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.jxau.enums.OrderStatusEnum;
 import com.jxau.enums.PayStatusEnum;
 import com.jxau.serializer.DateToSerializer;
-import com.jxau.until.EnumUtil;
+import com.jxau.util.EnumUtil;
 import lombok.Data;
 import org.hibernate.annotations.DynamicUpdate;
 

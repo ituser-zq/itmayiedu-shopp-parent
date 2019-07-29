@@ -7,7 +7,7 @@ import com.jxau.domain.ProductCategory;
 import com.jxau.domain.ProductInfo;
 import com.jxau.service.CategoryService;
 import com.jxau.service.ProductService;
-import com.jxau.until.ResultUtil;
+import com.jxau.util.ResultUtil;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;

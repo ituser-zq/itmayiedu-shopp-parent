@@ -1,6 +1,5 @@
 package com.jxau.service.impl;
 
-import com.itmayeidu.api.service.PayService;
 import com.jxau.Exception.SellException;
 import com.jxau.converter.OrderMasterToOrderDTOConverter;
 import com.jxau.domain.OrderDetail;
@@ -15,7 +14,7 @@ import com.jxau.repository.OrderDetailDao;
 import com.jxau.repository.OrderMasterDao;
 import com.jxau.service.OrderService;
 import com.jxau.service.ProductService;
-import com.jxau.until.KeyUtil;
+import com.jxau.util.KeyUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;

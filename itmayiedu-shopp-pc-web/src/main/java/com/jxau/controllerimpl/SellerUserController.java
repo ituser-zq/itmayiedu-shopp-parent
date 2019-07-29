@@ -5,7 +5,7 @@ import com.jxau.constant.Constant;
 import com.jxau.domain.SellerInfo;
 import com.jxau.enums.ResultEnum;
 import com.jxau.service.SellerService;
-import com.jxau.until.CookieUtil;
+import com.jxau.util.CookieUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;

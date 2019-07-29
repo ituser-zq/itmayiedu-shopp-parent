@@ -1,7 +1,7 @@
-package com.jxau.until;
+package com.jxau.util;
 
 /**
- * @PackageName:com.jxau.until
+ * @PackageName:com.jxau.util
  * @ClassName:MathUtil
  * @Description: 用于转换double与数据库金额BigDecimal的精度的比较
  * @Author: ZQ
