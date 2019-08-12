@@ -16,6 +16,11 @@
 			<artifactId>weixin-java-mp</artifactId>
 			<version>${weixin-java-mp.version}</version>
 		</dependency>
+      <dependency>
+          <groupId>com.itmayiedu</groupId>
+          <artifactId>itmayiedu-shopp-api</artifactId>
+          <version>0.0.1-SNAPSHOT</version>
+      </dependency>
   </dependencies>
   
 </project>

@@ -2,6 +2,9 @@ package com.alipay.config;
 
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.concurrent.ConcurrentHashMap;
 
 /* *
  *类名：AlipayConfig

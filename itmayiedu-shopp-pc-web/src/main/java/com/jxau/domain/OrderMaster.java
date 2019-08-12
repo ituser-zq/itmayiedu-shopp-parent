@@ -1,5 +1,6 @@
 package com.jxau.domain;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.jxau.enums.OrderStatusEnum;
@@ -38,6 +39,8 @@ public class OrderMaster {
 
     private String buyerOpenid;
 
+    //将bigDecimal类型装换为字符串形式可以保证在计算过程的精度问题
+    @JsonFormat(shape = JsonFormat.Shape.STRING)
     private BigDecimal orderAmount;
 
     //订单状态，默认为新下单

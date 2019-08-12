@@ -1,5 +1,6 @@
 package com.jxau.domain;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.jxau.enums.ProductStatusEnum;
 import com.jxau.util.EnumUtil;
@@ -34,6 +35,7 @@ public class ProductInfo {
 
     private  String productName;
 
+    @JsonFormat(shape = JsonFormat.Shape.STRING)
     private BigDecimal productPrice;
 
     private Integer productStock;

@@ -1,5 +1,6 @@
 package com.jxau.domain;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
 
 import javax.persistence.Entity;
@@ -26,6 +27,7 @@ public class OrderDetail {
 
     private String productName;
 
+    @JsonFormat(shape = JsonFormat.Shape.STRING)
     private BigDecimal productPrice;
 
     private Integer productQuantity;

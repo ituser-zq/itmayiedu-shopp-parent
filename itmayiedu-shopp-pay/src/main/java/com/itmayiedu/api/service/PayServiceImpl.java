@@ -95,7 +95,7 @@ public class PayServiceImpl extends BaseApiService implements PayService {
 		// 付款金额，必填 企业金额
 		String total_amount = paymentInfo.getPrice() + "";
 		// 订单名称，必填
-		String subject = "充值会员服务";
+		String subject = "玛莎拉蒂4S店出售";
 		// 商品描述，可空
 		// String body = new
 		// String(request.getParameter("WIDbody").getBytes("ISO-8859-1"),"UTF-8");
