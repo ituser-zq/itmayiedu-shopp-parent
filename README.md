@@ -67,4 +67,4 @@ itmayiedu-shopp-parent
 
 6.启动时找到Eurake注册中心，启动注册中心。该信息模块涉及到消息中间件查看消息任务可以下载activityMQ运行客户端查看
 
-## 展示项目地址：https://blog.csdn.net/qq_41360177/article/details/96478275
+展示项目地址：https://blog.csdn.net/qq_41360177/article/details/96478275
